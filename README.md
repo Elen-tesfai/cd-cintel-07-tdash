@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```bash
 pip install pyshiny flask
 ```
-### Step 3. Run the Dashboard Locally:
+### Step 3: Run the Dashboard Locally:
 Once you’ve cloned the repository and installed the dependencies, you can run the app locally:
 ```bash
 python app.py
@@ -47,8 +47,8 @@ This project is deployed on GitHub Pages. After forking and setting up the proje
   Scroll down to the GitHub Pages section.
   Under Source, choose the main branch and select the docs folder (or root folder).
   After this, GitHub Pages will deploy the app, and you can view it at:
-```bash
-https://Elen-tesfai.github.io/cintel-07-tdash/
+
+[https://Elen-tesfai.github.io/cintel-07-tdash/](https://Elen-tesfai.github.io/cintel-07-tdash/)
 ```
-### Step 5. License Information:
- This project is licensed under the MIT License. For more details, see the LICENSE file in the repository.
+### Step 5: License Information:
+This project is licensed under the MIT License. For more details, see the LICENSE file in the repository.
