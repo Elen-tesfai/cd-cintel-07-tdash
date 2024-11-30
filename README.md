@@ -20,10 +20,10 @@ To set up and run the project locally, follow these steps:
 Clone the repository to your local machine using Git:
 ```bash
 git clone https://github.com/Elen-tesfai/cintel-07-tdash.git
-```
+
 Change directory to the project folder
 cd cintel-07-tdash
-
+```
 ### Step 2: Install Dependencies:
 If a requirements.txt file is available, install the necessary Python dependencies:
 ```bash
@@ -49,6 +49,6 @@ This project is deployed on GitHub Pages. After forking and setting up the proje
   After this, GitHub Pages will deploy the app, and you can view it at:
 
 [https://Elen-tesfai.github.io/cintel-07-tdash/](https://Elen-tesfai.github.io/cintel-07-tdash/)
-```
+
 ### Step 5: License Information:
 This project is licensed under the MIT License. For more details, see the LICENSE file in the repository.
