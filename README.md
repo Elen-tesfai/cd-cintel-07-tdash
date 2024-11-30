@@ -17,7 +17,7 @@ This project is an interactive analytics dashboard created for **Module 7 of the
 To set up and run the project locally, follow these steps:
 
 ### Step 1: Clone the Repository
-# Clone the repository to your local machine using Git:
+Clone the repository to your local machine using Git:
 ```bash
 git clone https://github.com/Elen-tesfai/cintel-07-tdash.git
 ```
