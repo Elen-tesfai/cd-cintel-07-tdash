@@ -1,4 +1,4 @@
-# cd-cintel-07-tdash
+# cintel-07-tdash
 Interactive dashboard project for Module 7 of the Cintel course using PyShiny.
 
 ## Project Overview
@@ -16,15 +16,15 @@ This project is an interactive analytics dashboard created for **Module 7 of the
 
 To set up and run the project locally, follow these steps:
 
-# Step 1: Clone the Repository
+### Step 1: Clone the Repository
 # Clone the repository to your local machine using Git:
 ```bash
-git clone https://github.com/Elen-tesfai/cd-cintel-07-tdash.git
+git clone https://github.com/Elen-tesfai/cintel-07-tdash.git
 ```
 # Change directory to the project folder
-cd cd-cintel-07-tdash
+cd cintel-07-tdash
 
-# Step 2: Install Dependencies:
+### Step 2: Install Dependencies:
 # If a requirements.txt file is available, install the necessary Python dependencies:
 ```bash
 pip install -r requirements.txt
@@ -33,14 +33,14 @@ pip install -r requirements.txt
 ```bash
 pip install pyshiny flask
 ```
-# Step 3. Run the Dashboard Locally:
+### Step 3. Run the Dashboard Locally:
 # Once you’ve cloned the repository and installed the dependencies, you can run the app locally:
 ```bash
 python app.py
 ```
-# This will start a local server. You can view the dashboard by navigating to http://127.0.0.1:5000/ in your browser.
+# This will launch a local server. To view the dashboard, open your browser and navigate to the provided local address.
 
-# Step 4. Deployment on GitHub Pages:
+### Step 4. Deployment on GitHub Pages:
 # This project is deployed on GitHub Pages. After forking and setting up the project, you can visit the deployed app at:
 
 # Go to your GitHub repository and click on the Settings tab.
@@ -48,9 +48,7 @@ python app.py
 # Under Source, choose the main branch and select the docs folder (or root folder).
 # After this, GitHub Pages will deploy the app, and you can view it at:
 ```bash
-https://your-username.github.io/cd-cintel-07-tdash/
+https://Elen-tesfai.github.io/cintel-07-tdash/
 ```
-# (Make sure to replace 'your-username' with your actual GitHub username.)
-
-# Step 5. License Information:
+### Step 5. License Information:
 # This project is licensed under the MIT License. For more details, see the LICENSE file in the repository.
