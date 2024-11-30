@@ -21,34 +21,34 @@ To set up and run the project locally, follow these steps:
 ```bash
 git clone https://github.com/Elen-tesfai/cintel-07-tdash.git
 ```
-# Change directory to the project folder
+Change directory to the project folder
 cd cintel-07-tdash
 
 ### Step 2: Install Dependencies:
-# If a requirements.txt file is available, install the necessary Python dependencies:
+If a requirements.txt file is available, install the necessary Python dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-# (Optional) If there's no requirements.txt, you can manually install dependencies, such as:
+(Optional) If there's no requirements.txt, you can manually install dependencies, such as:
 ```bash
 pip install pyshiny flask
 ```
 ### Step 3. Run the Dashboard Locally:
-# Once you’ve cloned the repository and installed the dependencies, you can run the app locally:
+Once you’ve cloned the repository and installed the dependencies, you can run the app locally:
 ```bash
 python app.py
 ```
-# This will launch a local server. To view the dashboard, open your browser and navigate to the provided local address.
+This will launch a local server. To view the dashboard, open your browser and navigate to the provided local address.
 
 ### Step 4. Deployment on GitHub Pages:
-# This project is deployed on GitHub Pages. After forking and setting up the project, you can visit the deployed app at:
+This project is deployed on GitHub Pages. After forking and setting up the project, you can visit the deployed app at:
 
-# Go to your GitHub repository and click on the Settings tab.
-# Scroll down to the GitHub Pages section.
-# Under Source, choose the main branch and select the docs folder (or root folder).
-# After this, GitHub Pages will deploy the app, and you can view it at:
+  Go to your GitHub repository and click on the Settings tab.
+  Scroll down to the GitHub Pages section.
+  Under Source, choose the main branch and select the docs folder (or root folder).
+  After this, GitHub Pages will deploy the app, and you can view it at:
 ```bash
 https://Elen-tesfai.github.io/cintel-07-tdash/
 ```
 ### Step 5. License Information:
-# This project is licensed under the MIT License. For more details, see the LICENSE file in the repository.
+ This project is licensed under the MIT License. For more details, see the LICENSE file in the repository.
