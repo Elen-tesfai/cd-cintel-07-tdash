@@ -11,6 +11,15 @@ This project is an interactive analytics dashboard created for **Module 7 of the
 - **Dynamic Data Visualizations**: Supports various forms of data representation (e.g., graphs, tables).
 - **Deployment on GitHub Pages**: The project is hosted on GitHub Pages for easy access and sharing.
 - **Modular Design**: The project is designed with modular components, allowing easy customization and scalability.
+
+## Tools
+
+- Python
+- Shiny for Python
+- VS Code + Python Extension
+- Git
+- GitHub
+
 ## Setting Up a Virtual Environment (Optional but Recommended)
 
 It's highly recommended to create a virtual environment for this project to avoid dependency conflicts with other Python projects.
@@ -20,6 +29,7 @@ It's highly recommended to create a virtual environment for this project to avoi
 1. Create the virtual environment:
    ```bash
    python -m venv venv
+
 2. Activate the virtual environment:
 
 On Windows:
@@ -34,8 +44,8 @@ source venv/bin/activate
  ```bash
 pip install -r requirements.txt
 ```
-Once you're done, you can deactivate the virtual environment:
-deactivate
+4. Deactivate the virtual environment when you're done:
+   deactivate
 
 ## Getting Started
 
@@ -45,8 +55,9 @@ To set up and run the project locally, follow these steps:
 Clone the repository to your local machine using Git:
 ```bash
 git clone https://github.com/Elen-tesfai/cintel-07-tdash.git
-
-Change directory to the project folder
+```
+Change directory to the project folder:
+```bash
 cd cintel-07-tdash
 ```
 ### Step 2: Install Dependencies:
@@ -63,16 +74,45 @@ Once you’ve cloned the repository and installed the dependencies, you can run 
 ```bash
 python app.py
 ```
-This will launch a local server. To view the dashboard, open your browser and navigate to the provided local address.
+This will launch a local server. To view the dashboard, open your browser and navigate to the provided local address (typically http://127.0.0.1:8000/).
 
+Run Locally - Initial Setup (VS Code Instructions)
+If you're using VS Code, follow these steps for an initial setup:
+
+# 1. Open the project folder in VS Code.
+
+# 2. Create a local project virtual environment named .venv
+```bash
+py -m venv .venv
+```
+# 3. Activate the virtual environment (Windows)
+```bash
+.venv\Scripts\Activate
+```
+# 4. Install the requirements
+```bash
+py -m pip install --upgrade pip setuptools
+py -m pip install --upgrade -r requirements.txt
+```
+# 5. In VS Code, select the .venv interpreter:
+# View > Command Palette > Python: Select Interpreter, then choose .venv
+
+# 6. Run the app
+```bash
+shiny run --reload --launch-browser app/app.py
+```
+# 7. Once the server is running, open your browser to:
+```bash
+# http://127.0.0.1:8000/ to test the app.
+```
 ### Step 4. Deployment on GitHub Pages:
 This project is deployed on GitHub Pages. After forking and setting up the project, you can visit the deployed app at:
-
+```bash
   Go to your GitHub repository and click on the Settings tab.
   Scroll down to the GitHub Pages section.
   Under Source, choose the main branch and select the docs folder (or root folder).
   After this, GitHub Pages will deploy the app, and you can view it at:
-
+```
 [https://Elen-tesfai.github.io/cintel-07-tdash/](https://Elen-tesfai.github.io/cintel-07-tdash/)
 
 ### Step 5: License Information:
