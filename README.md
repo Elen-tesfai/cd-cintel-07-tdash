@@ -28,7 +28,7 @@ It's highly recommended to create a virtual environment for this project to avoi
 
 1. Create the virtual environment:
 ```bash
-python -m venv venv
+python -m venv .venv
 ```
 2. Activate the virtual environment:
 
@@ -44,7 +44,8 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-4. Deactivate the virtual environment when you're done:
+### 4. Deactivate the virtual environment:
+To deactivate your virtual environment, run:
 ```bash
 deactivate
 ```
@@ -71,14 +72,14 @@ pip install -r requirements.txt
 pip install pyshiny flask
 ```
 ### Step 3: Run the Dashboard Locally:
-Once you’ve cloned the repository and installed the dependencies, you can run the app locally:
+On the repository is cloned and dependencies are installed, run the app locally:
 ```bash
 python app.py
 ```
-This will launch a local server. To view the dashboard, open your browser and navigate to the provided local address (typically http://127.0.0.1:8000/).
+This will launch a local server. To view the dashboard, open the browser and navigate to the provided local address (typically http://127.0.0.1:8000/).
 
 ## Run Locally - Initial Setup (VS Code Instructions)
-If you're using VS Code, follow these steps for an initial setup:
+If using VS Code, follow these steps for an initial setup:
 
 1. Open the project folder in VS Code.
 
@@ -103,17 +104,17 @@ View > Command Palette > Python: Select Interpreter, then choose .venv
 ```bash
 shiny run --reload --launch-browser app/app.py
 ```
-7. Once the server is running, open your browser to:
+7. Once the server is running, open the browser to:
 ```bash
 # http://127.0.0.1:8000/ to test the app.
 ```
 ### Step 4. Deployment on GitHub Pages:
-This project is deployed on GitHub Pages. After forking and setting up the project, you can visit the deployed app at:
+This project is deployed on GitHub Pages. After forking and setting up the project, visit the deployed app at:
 ```bash
-  Go to your GitHub repository and click on the Settings tab.
+  Go to the GitHub repository and click on the Settings tab.
   Scroll down to the GitHub Pages section.
   Under Source, choose the main branch and select the docs folder (or root folder).
-  After this, GitHub Pages will deploy the app, and you can view it at:
+  After this, GitHub Pages will deploy the app, and the app can be viewed at:
 ```
 [https://Elen-tesfai.github.io/cintel-07-tdash/](https://Elen-tesfai.github.io/cintel-07-tdash/)
 
