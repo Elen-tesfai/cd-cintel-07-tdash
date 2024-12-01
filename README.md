@@ -76,7 +76,6 @@ On the repository is cloned and dependencies are installed, run the app locally:
 ```bash
 python app.py
 ```
-This will launch a local server. To view the dashboard, open the browser and navigate to the provided local address (typically http://127.0.0.1:8000/).
 
 ## Run Locally - Initial Setup (VS Code Instructions)
 If using VS Code, follow these steps for an initial setup:
