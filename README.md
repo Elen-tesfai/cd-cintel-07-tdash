@@ -104,10 +104,7 @@ View > Command Palette > Python: Select Interpreter, then choose .venv
 ```bash
 shiny run --reload --launch-browser app/app.py
 ```
-7. Once the server is running, open the browser to:
-```bash
-# http://127.0.0.1:8000/ to test the app.
-```
+
 ### Step 4. Deployment on GitHub Pages:
 This project is deployed on GitHub Pages. After forking and setting up the project, visit the deployed app at:
 ```bash
