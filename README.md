@@ -76,32 +76,32 @@ python app.py
 ```
 This will launch a local server. To view the dashboard, open your browser and navigate to the provided local address (typically http://127.0.0.1:8000/).
 
-Run Locally - Initial Setup (VS Code Instructions)
+## Run Locally - Initial Setup (VS Code Instructions)
 If you're using VS Code, follow these steps for an initial setup:
 
-# 1. Open the project folder in VS Code.
+1. Open the project folder in VS Code.
 
-# 2. Create a local project virtual environment named .venv
+2. Create a local project virtual environment named .venv
 ```bash
 py -m venv .venv
 ```
-# 3. Activate the virtual environment (Windows)
+3. Activate the virtual environment (Windows)
 ```bash
 .venv\Scripts\Activate
 ```
-# 4. Install the requirements
+4. Install the requirements
 ```bash
 py -m pip install --upgrade pip setuptools
 py -m pip install --upgrade -r requirements.txt
 ```
-# 5. In VS Code, select the .venv interpreter:
+5. In VS Code, select the .venv interpreter:
 # View > Command Palette > Python: Select Interpreter, then choose .venv
 
-# 6. Run the app
+6. Run the app
 ```bash
 shiny run --reload --launch-browser app/app.py
 ```
-# 7. Once the server is running, open your browser to:
+7. Once the server is running, open your browser to:
 ```bash
 # http://127.0.0.1:8000/ to test the app.
 ```
