@@ -27,9 +27,9 @@ It's highly recommended to create a virtual environment for this project to avoi
 ### To create a virtual environment:
 
 1. Create the virtual environment:
-   ```bash
-   python -m venv venv
-
+```bash
+python -m venv venv
+```
 2. Activate the virtual environment:
 
 On Windows:
@@ -37,16 +37,17 @@ On Windows:
 venv\Scripts\activate
 ```
 On macOS/Linux:
- ```bash
+```bash
 source venv/bin/activate
 ```
 3. Install the dependencies:
- ```bash
+```bash
 pip install -r requirements.txt
 ```
 4. Deactivate the virtual environment when you're done:
-   deactivate
-
+```bash
+deactivate
+```
 ## Getting Started
 
 To set up and run the project locally, follow these steps:
@@ -95,8 +96,9 @@ py -m pip install --upgrade pip setuptools
 py -m pip install --upgrade -r requirements.txt
 ```
 5. In VS Code, select the .venv interpreter:
-# View > Command Palette > Python: Select Interpreter, then choose .venv
-
+```bash
+View > Command Palette > Python: Select Interpreter, then choose .venv
+```
 6. Run the app
 ```bash
 shiny run --reload --launch-browser app/app.py
