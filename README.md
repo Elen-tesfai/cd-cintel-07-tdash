@@ -180,3 +180,6 @@ This project is licensed under the [MIT License](LICENSE). For more details, ple
 ## Conclusion
 
 This project provides an interactive analytics dashboard using **PyShiny**, offering dynamic visualizations and real-time data interaction. It is deployed on GitHub Pages, making it easily accessible for sharing and further development. The modular design of the app ensures flexibility and scalability for future enhancements. Contributions and adaptations to the project are encouraged.
+
+## Check out my deployed app!
+You can view the deployed version of my app here: [Check out my deployed app!](https://tinyurl.com/Elen-app)
