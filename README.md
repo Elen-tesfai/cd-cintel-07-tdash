@@ -104,14 +104,14 @@ Go to your GitHub repo settings and enable GitHub Pages for the docs folder.
 
 ## Project Overview
 
-This project is an interactive analytics dashboard created for **Module 7 of the Cintel course**. The dashboard uses **PyShiny**, which combines Python with the Shiny framework to build interactive web applications. It integrates data visualizations and analytics tools for dynamic, real-time interaction.
+This project is an interactive analytics dashboard built for **Module 7 of the Cintel course**. The dashboard leverages **PyShiny**, a Python framework for building interactive web applications. It incorporates real-time data visualizations and analytics to provide a dynamic user experience.
 
 ## Features
 
-- **Interactive Dashboard**: Built using **PyShiny** for real-time data interaction and visualizations.
-- **Dynamic Data Visualizations**: Supports various forms of data representation (e.g., graphs, tables).
-- **Deployment on GitHub Pages**: The project is hosted on GitHub Pages for easy access and sharing.
-- **Modular Design**: The project is designed with modular components, allowing easy customization and scalability.
+- **Interactive Dashboard**: Developed using **PyShiny**, which supports real-time data interaction and visualizations.
+- **Dynamic Data Visualizations**: Includes graphs and tables for data presentation.
+- **Deployment on GitHub Pages**: Hosted on **GitHub Pages** for easy access and sharing.
+- **Modular Design**: The app's modular structure allows for easy customization and scalability.
 
 ## Setting Up a Virtual Environment (Optional but Recommended)
 
@@ -160,7 +160,7 @@ If a requirements.txt file is available, install the necessary Python dependenci
 ```bash
 pip install -r requirements.txt
 ```
-(Optional) If there's no requirements.txt, manually install dependencies, such as:
+If there's no requirements.txt, manually install dependencies, such as:
 ```bash
 pip install pyshiny flask
 ```
@@ -174,5 +174,9 @@ This project is deployed on GitHub Pages. After forking and setting up the proje
 ```
 [https://Elen-tesfai.github.io/cintel-07-tdash/](https://Elen-tesfai.github.io/cintel-07-tdash/)
 
-### Step 4: License Information:
-This project is licensed under the MIT License. For more details, see the LICENSE file in the repository.
+### Step 4: License Information
+This project is licensed under the [MIT License](LICENSE). For more details, please refer to the LICENSE file in the repository.
+
+## Conclusion
+
+This project provides an interactive analytics dashboard using **PyShiny**, offering dynamic visualizations and real-time data interaction. It is deployed on GitHub Pages, making it easily accessible for sharing and further development. The modular design of the app ensures flexibility and scalability for future enhancements. Contributions and adaptations to the project are encouraged.
